@@ -11,16 +11,13 @@ This is a 5 day intense Graduate GIS course with an open-source goal.
 
 # Friday
 ### Powerpoints
-[Deep dive: vector and raster]()
-
-[Follow along: data conversion]()
-
-[Introduction to GPS](3_GPS_RS.pdf)
+[Deep dive: vector and raster]()<br />
+[Follow along: data conversion]()<br />
+[Introduction to GPS](3_GPS_RS.pdf)<br />
 
 ### Labs
-[Generating GIS data and plotting](GPS_to_GIS.pdf)
-
-[Vector editing]()
+[Generating GIS data and plotting](GPS_to_GIS.pdf)<br />
+[Vector editing]()<br />
 
 # Saturday
 ### Powerpoints
