@@ -1,0 +1,104 @@
+---
+title: "GPS_to_GIS"
+author: "Peter Galante"
+date: "`r format(Sys.Date())`"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your cellphone is a GPS!
+
+**If you have an Android phone, you probably have to download a separate app**
+Download the free app “GPSLogger”.  (for an iPhone, you can use GPS & Maps, or other similar apps)
+After installing, you may need to allow the app to access certain parts of your phone. 
+As with any free app, make sure the accesses you are agreeing to make sense.
+
+### To get started, we need to make sure the waypoints are saving in an easily usable format. 
+[1]  Click the menu (“Hamburger button”) in the top corner. Go to Logging Details and turn off everything except “Log to CSV”. Then in File and Folder Details, set the directory on your phone to somewhere easily accessible.
+
+[2]  On the main GUI page, there are many options such as “Start Logging” which will take waypoints at different time intervals, and different icons where, for example, you can see how many satellites are within range, and your location error. 
+
+[3]  The “Start Logging” button may by useful for something like mapping a line feature if you set short time intervals and walk at a steady pace. If you are mapping points, or vertices of a shape, there is a button at the bottom of the GUI that is a number “1” in a box. This button logs waypoints manually, so push whenever you want to take a reading. 
+
+###  Both a GPS unit or the GPSLogger app on your phone will tell you the approximate error at which you can take a point (on a GPS unit this is on the acquiring satellites page).  Before you take your first point, make a note of the error:
+
+What is the current error/accuracy?  ____________________
+As you move around, notice how the error changes as the number and location of satellites changes.
+Go into a building. How does the error change? ___________________________________________
+
+Go under a tree. How does the error change? _____________________________________________
+In general, you want to only record a point with less than 10m error – or perhaps even less if possible. 
+Based on the conditions of the day, decide what level of error you will accept around each point you collect in today’s lab: ___________________
+
+###  Now, you will choose three features outside from which to collect data.  
+
+Choose a point, a line, and a polygon feature (e.g. a flagpole, a sidewalk, and a fountain).  For the line and the polygon, you will be collecting point data that you will later turn into a line and a polygon in R. To create the line and polygon using points, you have to decide on the resolution of point samples you will use to construct your line or polygon. Will you take a point every 10m along your line? Every 3m? Record here the sampling resolution of your line and polygon features: ______________________________________
+
+To record a point in your GPS unit, press and hold the “Mark” button (sometimes the “Enter” button). The waypoint menu appears. Record the information in the table (next page) and then hit (OK). To edit or take a second look at the waypoint you recorded, go to Menu-Points-Waypoints (or for the 62sc press the “Find” button and then go to “Waypoints”).
+
+Using your smartphone, the button with a square around the number 1 is analogous to the “Mark” button on the GPS. Note: you cannot edit your waypoint log here. You have to download the waypoints and edit on computer.
+
+Take notes here on the point, line and polygon you sample. The first line is filled in for you as an example – either format for the coordinates is correct (with a W or a – to denote the correct location) but make sure you are consistent in the format you are using. 
+
+| Waypoint Number | Feature Type  | Feature Description  | Latitude (N)   | Longitude (W)    | Error  |
+  | :-------------: |:-------------:| :------------------: | :------------: | :--------------: | :----: |
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+  |_________________|_______________|______________________|________________|__________________|________|
+
+
+## Add data to a GIS
+
+Normally, you can download points from your GPS to some sort of spreadsheet. If you used your phone, send yourself the .csv file you made that contains the locality records. 
+
+Add these to QGIS by clicking on the **Add Delimited Text Layer** button and navigating to the spreadsheet. Identify which columns correspond to the X and Y fields. Latitude is always Y and Longitude is always X.
+
+## View Points on Google Satellite Imagery and Compare
+
+One of the largest obstacles in GIS is data availability. Fortunately, Google allows for use of their satellite imagery within QGIS using their Tile Map Service. NOTE: You still need to properly cite any data you access.
+
+Generally, for any biological evaluation, you would want to use raw imagery (i.e., remotely sensed products from NASA satellites). But Google Satellite imagery is convenient for comparing GPS accuracy.
+Here, we ill simply plot some Google renderings and add the GPS points you created for comparison.
+
+To add Google imagery, go to **View**>**Panels**>**Browser**
+
+In the browser panel, right click on **XYZ Tiles** and click "New Connection...".
+
+Add the name "Google Satellite"
+
+In the URL window, add "http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}" and click **ok**
+
+Now drag your new connection into the **Layers** pane. Google Earth imagery should be plotted. You may need to drag your GPS localities to the top of the Table of Contents (Layers Pane) to see them.
+
+Zoom into some of these points. Do they reflect the areas you were measuring?
+
+##  Examine the GPS locality data
+
+Right click on the GPS localities layer in the Table of Contents and click "Open Attribute Table". 
+
+Here, you can highlight localities, Sort by error, and curate the data visually.
+
+There are many tools available on QGIS to help you with your spatial analyses, and data visualization is often an important tool for finding trends and anomalies.
+
+
+
+
+
