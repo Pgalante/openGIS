@@ -12,20 +12,21 @@ This is a 5 day intense Graduate GIS course with an open-source goal.
 
 # Friday
 ### Powerpoints
-[Deep dive: vector and raster](Deep_dive_vector_raster.pdf)<br />
 
-[Follow along: data conversion](raster_vector_conversions.pdf)<br />
+[Deep dive: vector and raster](Deep_dive_vector_raster.pdf)
 
-[Introduction to GPS](3_GPS_RS.pdf)<br />
+[Follow along: data conversion](raster_vector_conversions.pdf)
+
+[Introduction to GPS](3_GPS_RS.pdf)
 
 ### Labs
-[Generating GIS data and plotting](GPS_to_GIS.pdf)<br />
+[Generating GIS data (GPS) and plotting](GPS_to_GIS.pdf)
 
-[Worldclim editing](WorldClimCrop.pdf)<br />
+[Worldclim editing](WorldClimCrop.pdf)
 
 # Saturday
 ### Powerpoints
-[Remote Sensing for conservation](RemoteSensing_conservation.pfd)
+[Remote Sensing for conservation](RemoteSensing_conservation.pdf)
 
 [Using raster calc]
 
@@ -44,3 +45,14 @@ This is a 5 day intense Graduate GIS course with an open-source goal.
 
 ### Labs
 [Spatial analysis](spatialAnalysis.pdf)
+
+# Monday
+Make-up work
+
+Topic Review
+
+Independent project development 
+
+
+
+<!-- -->
