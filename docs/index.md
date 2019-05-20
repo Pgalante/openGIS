@@ -33,7 +33,7 @@ And click the "Download" button.
 ### Powerpoints
 [Remote Sensing for conservation](RemoteSensing_conservation.pdf)
 
-[Using raster calc](Raster_calculator.pdf)
+[Using raster calculator](Raster_calculator.pdf)
 
 [Follow along using plugins](Plugin_followAlong.pdf)
 
