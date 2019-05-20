@@ -18,38 +18,38 @@ And click the "Download" button.
 # Friday
 ### Powerpoints
 
-[Deep dive: vector and raster](Deep_dive_vector_raster.pdf)
+#[Deep dive: vector and raster](Deep_dive_vector_raster.pdf)
 
-[Follow along: data conversion](raster_vector_conversions.pdf)
+#[Follow along: data conversion](raster_vector_conversions.pdf)
 
-[Introduction to GPS](3_GPS_RS.pdf)
+#[Introduction to GPS](3_GPS_RS.pdf)
 
 ### Labs
-[Generating GIS data (GPS) and plotting](GPS_to_GIS.pdf)
+#[Generating GIS data (GPS) and plotting](GPS_to_GIS.pdf)
 
-[Worldclim editing](WorldClimCrop.pdf)
+#[Worldclim editing](WorldClimCrop.pdf)
 
 # Saturday
 ### Powerpoints
-[Remote Sensing for conservation](RemoteSensing_conservation.pdf)
+#[Remote Sensing for conservation](RemoteSensing_conservation.pdf)
 
-[Using raster calculator](Raster_calculator.pdf)
+#[Using raster calculator](Raster_calculator.pdf)
 
-[Follow along using plugins](Plugin_followAlong.pdf)
+#[Follow along using plugins](Plugin_followAlong.pdf)
 
 ### Labs
-[Raster Calculator](rasterCalcRS.pdf)
+#[Raster Calculator](rasterCalcRS.pdf)
 
-[NDVI Calculation](NDVI.pdf)
+#[NDVI Calculation](NDVI.pdf)
 
 # Sunday
 ### Powerpoints
-[Georeferencing a map follow along](GeoreferenceMap.pdf)
+#[Georeferencing a map follow along](GeoreferenceMap.pdf)
 
-[Spatial Analysis follow along with bigfoot data](SpatialAnalysisfollowAlong.pdf)
+#[Spatial Analysis follow along with bigfoot data](SpatialAnalysisfollowAlong.pdf)
 
 ### Labs
-[Spatial analysis](spatialAnalysis.pdf)
+#[Spatial analysis](spatialAnalysis.pdf)
 
 # Monday
 Make-up work
