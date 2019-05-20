@@ -14,6 +14,10 @@ And click the "Download" button.
 
 ### Labs
 [Adding data, changing projections, and other useful tools](addingDataProjectionsGIStools.pdf)
+
+
+
+
 <!--
 # Friday
 ### Powerpoints
@@ -57,6 +61,8 @@ Make-up work
 Topic Review
 
 Independent project development 
+
+
 
 
  -->
