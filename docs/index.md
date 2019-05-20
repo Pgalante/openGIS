@@ -1,7 +1,7 @@
 ## Welcome to openGIS
 This is a 5 day intense Graduate GIS course with an open-source goal.
 
-[Click here to access canned datasets](https://github.com/Pgalante/openGIS/blob/master/files/data.zip)
+[Click here to access canned datasets](https://github.com/Pgalante/openGIS/blob/master/files/dataZip.zip)
 And click the "Download" button.
 
 [Syllabus](BISC7529_syllabus.pdf)
