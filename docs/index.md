@@ -18,10 +18,10 @@ And click the "Download" button.
 
 
 
-<!--
+
 # Friday
 ### Powerpoints
-
+<!--
 [Deep dive: vector and raster](Deep_dive_vector_raster.pdf)
 
 [Follow along: data conversion](raster_vector_conversions.pdf)
