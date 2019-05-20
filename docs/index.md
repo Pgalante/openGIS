@@ -33,9 +33,9 @@ And click the "Download" button.
 ### Powerpoints
 [Remote Sensing for conservation](RemoteSensing_conservation.pdf)
 
-[Using raster calc]
+[Using raster calc](Raster_calculator.pdf)
 
-[Follow along using plugins]
+[Follow along using plugins](Plugin_followAlong.pdf)
 
 ### Labs
 [Raster Calculator](rasterCalcRS.pdf)
@@ -44,9 +44,9 @@ And click the "Download" button.
 
 # Sunday
 ### Powerpoints
-[Georeferencing a map]
+[Georeferencing a map follow along](GeoreferenceMap.pdf)
 
-[Spatial Analysis follow along with bigfoot data]
+[Spatial Analysis follow along with bigfoot data](SpatialAnalysisfollowAlong.pdf)
 
 ### Labs
 [Spatial analysis](spatialAnalysis.pdf)
