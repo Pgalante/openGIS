@@ -14,7 +14,7 @@ And click the "Download" button.
 
 ### Labs
 [Adding data, changing projections, and other useful tools](addingDataProjectionsGIStools.pdf)
-<!--
+
 # Friday
 ### Powerpoints
 
@@ -42,6 +42,7 @@ And click the "Download" button.
 
 [NDVI Calculation](NDVI.pdf)
 
+<!--
 # Sunday
 ### Powerpoints
 [Georeferencing a map follow along](GeoreferenceMap.pdf)
