@@ -15,9 +15,16 @@ And click the "Download" button.
 ### Labs
 [Adding data, changing projections, and other useful tools](addingDataProjectionsGIStools.pdf)
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> afb8b3a17dd8e2c20e3f6efac9f27b77d0a32a08
 # Friday
 ### Powerpoints
-
+<!--
 [Deep dive: vector and raster](Deep_dive_vector_raster.pdf)
 
 [Follow along: data conversion](raster_vector_conversions.pdf)
@@ -58,6 +65,8 @@ Make-up work
 Topic Review
 
 Independent project development 
+
+
 
 
  -->
