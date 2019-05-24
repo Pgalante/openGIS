@@ -49,7 +49,7 @@ And click the "Download" button.
 
 [NDVI Calculation](NDVI.pdf)
 
-<!--
+
 # Sunday
 ### Powerpoints
 [Georeferencing a map follow along](GeoreferenceMap.pdf)
@@ -69,4 +69,4 @@ Independent project development
 
 
 
- -->
+ 
