@@ -14,6 +14,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Your cellphone is a GPS!
 
+**Note: if available, you may use a GPS device.**
+
+
 **If you have an Android phone, you probably have to download a separate app**
 Download the free app “GPSLogger”.  (for an iPhone, you can use GPS & Maps, or other similar apps)
 After installing, you may need to allow the app to access certain parts of your phone. 
