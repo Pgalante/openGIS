@@ -11,7 +11,7 @@ passcode: 713250
 ## Calendar
 | Date | Lectures | Lab | Data |
 |:----:|:--------:|:---:|:----:|
-| Thursday <br> May 27 | [What is GIS?](docs/1_what_is_GIS.pdf) <br> [GIS basics](2_Using_QGIS.pdf) <br> [Projections](3_GIS_details.pdf) | [QGIS basics](Lab1.docx) <br> | [Bigfoot sightings](bigfootSightings.csv) |
+| Thursday <br> May 27 | [What is GIS?](1_what_is_GIS.pdf) <br> [GIS basics](2_Using_QGIS.pdf) <br> [Projections](3_GIS_details.pdf) | [QGIS basics](Lab1.docx) <br> | [Bigfoot sightings](bigfootSightings.csv) |
 | Friday <br> May 28 | [Deep dive vector](4_deepDiveVector.pdf) <br> [Deep dive raster](5_deepDiveRaster.pdf) <br>  | [Projections](Lab2_projections.docx) <br> [Working with vectors](Lab4_vector.docx) <br> [Working with rasters](Lab5_raster.docx) | [State Populations](statePopulation.csv) |
 | Saturday <br> May 29 | [Introduction to GPS](6_GPS.pdf) <br> [Remote sensing](7_remoteSensing_.pdf) <br>  | [GPS](GPS_to_GIS.pdf) <br> [Remote Sensing](Lab7_NDVI.docx)  | |
 | Sunday <br> May 30 | [Georeferencing follow-along](9_georeference_followalong.pdf) <br> [Raster calculator follow-along](Lab8_SR.docx) | [Spatial Analysis](https://ncep.amnh.org/index.php/Detail/objects/1055)  | [Quad Map](gwlquad.jpg) <br> [Raster Calc](rasterCalc.zip)|
